@@ -1,0 +1,139 @@
+/* Let's start CSS */
+
+/* CSS Reset */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: Roboto, serif;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 50px;
+  padding-top: 8px;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.content-zero {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.text p {
+  color: #e5e7eb;
+}
+button {
+  color: white;
+  padding: 10px;
+  background-color: #3882f6;
+  font-weight: bold;
+  border: none;
+  border-radius: 10%;
+  text-align: center;
+  margin-top: 10px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+.content-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 25px;
+}
+.header-2 {
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.pictures {
+  display: flex;
+  gap: 8px;
+}
+.content-two {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  padding: 70px;
+  flex-direction: column;
+}
+.content-two p,
+.content-two strong {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+  padding: 8px;
+}
+/* another way to select strong 
+and be ahead with specificity */
+.content-two .bold {
+  font-style: bold;
+}
+
+.content-three {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  color: #e5e7eb;
+  width: 75%;
+}
+.content-three-btn {
+  border: 1px solid #f9faf8;
+}
+.footer {
+  text-align: center;
+  color: #e5e7eb;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

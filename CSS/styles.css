@@ -82,7 +82,8 @@ ul {
 
 .pictures {
   display: flex;
-  gap: 8px;
+  gap: 16px;
+  justify-content: space-around;
 }
 .content-two {
   background-color: #e5e7eb;
@@ -113,6 +114,7 @@ and be ahead with specificity */
   display: flex;
   justify-content: center;
   margin: 15px;
+  padding: 50px;
 }
 
 .blue-box {
@@ -136,4 +138,9 @@ and be ahead with specificity */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  object-fit: cover;
+  border-radius: 14px;
 }
